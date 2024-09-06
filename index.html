@@ -8,16 +8,134 @@
       href="/assets/imagenes/favicon.ico"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="/estilos.css" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Michi</title>
   </head>
+
   <body>
     <header>
-      <nav>
-        <a href="/index.html">Inicio</a>
-        <a href="/preferencias.html">Preferencias</a>
-        <a href="/audiovisual.html">Audiovisual</a>
-        <a href="/contacto.html">Contacto</a>
-      </nav>
+      <div class="container">
+        <div id="branding">
+          <img src="/assets/imagenes/favicon.ico" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#preferencias">Preferencias</a></li>
+            <li><a href="#audiovisual">Audiovisual</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <div class="container">
+      <section id="inicio">
+        <h1>¡Amigos Gatunos Naranja!</h1>
+        <p>
+          Hola, amiguitos. ¿Están listos para aprender sobre los maravillosos
+          gatos color naranja? ¡Vamos a divertirnos juntos!
+        </p>
+        <img src="/api/placeholder/400/300" alt="Gato naranja sonriente" />
+      </section>
+
+      <section id="preferencias">
+        <h2>¿Por qué amamos a los gatos naranja?</h2>
+        <div class="feature-box">
+          <h3>¡Los gatos naranja son especiales!</h3>
+          <ul>
+            <li>Son suaves y cariñosos como un peluche</li>
+            <li>Su color es alegre como el sol</li>
+            <li>Tienen personalidades divertidas</li>
+            <li>¡Nos hacen sonreír todos los días!</li>
+          </ul>
+        </div>
+        <div class="feature-box">
+          <h3>Cosas favoritas de los gatos naranja</h3>
+          <p>¿Sabías que a los gatos naranja les encanta...?</p>
+          <ul>
+            <li>Jugar con ovillos de lana</li>
+            <li>Tomar siestas en lugares cálidos</li>
+            <li>Perseguir juguetes con plumas</li>
+            <li>Recibir mimos detrás de las orejas</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="audiovisual">
+        <h2>Descubre más sobre los gatos naranja</h2>
+        <div class="feature-box">
+          <h3>Videos divertidos</h3>
+          <div class="video-container">
+            <img
+              src="/api/placeholder/560/315"
+              alt="Video de gato naranja jugando"
+            />
+          </div>
+          <p>¡Mira cómo juega este travieso gatito naranja!</p>
+        </div>
+        <div class="feature-box">
+          <h3>Canciones gatunísimas</h3>
+          <audio controls>
+            <source src="#" type="audio/mpeg" />
+            Tu navegador no soporta el elemento de audio.
+          </audio>
+          <p>
+            Escucha "El Miau Miau Naranja", nuestra canción favorita sobre gatos
+            color mandarina.
+          </p>
+        </div>
+        <div class="feature-box">
+          <h3>Galería de fotos</h3>
+          <img src="/api/placeholder/200/200" alt="Gato naranja durmiendo" />
+          <img src="/api/placeholder/200/200" alt="Gato naranja jugando" />
+          <img src="/api/placeholder/200/200" alt="Gato naranja comiendo" />
+          <p>¡Mira estas adorables fotos de nuestros amigos naranja!</p>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>¡Cuéntanos sobre tu gato naranja!</h2>
+        <div class="feature-box">
+          <h3>Comparte tu historia</h3>
+          <p>
+            Si tienes un amigo gatuno color naranja, nos encantaría conocerlo.
+            Pide a tus papás que nos envíen una foto y su nombre.
+          </p>
+          <form class="contact-form">
+            <input type="text" placeholder="Tu nombre" />
+            <input type="text" placeholder="Nombre de tu gato" />
+            <input type="email" placeholder="Email de tus papás" />
+            <textarea
+              placeholder="Cuéntanos algo divertido sobre tu gato"
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="feature-box">
+          <h3>Preguntas frecuentes</h3>
+          <ul>
+            <li>¿Todos los gatos naranja son machos?</li>
+            <li>¿Por qué mi gato naranja maúlla tanto?</li>
+            <li>¿Cómo puedo hacer que mi gato naranja juegue conmigo?</li>
+          </ul>
+          <p>¡Pregunta a tus papás si quieres saber las respuestas!</p>
+        </div>
+      </section>
+      <footer>
+        <h3>Derechos reservados 2024</h3>
+      </footer>
+    </div>
   </body>
 </html>
