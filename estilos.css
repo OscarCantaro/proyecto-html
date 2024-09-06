@@ -1,8 +1,8 @@
 body {
   font-family: "Rubik", sans-serif;
-  background-color: #fff5e6;
   color: #333;
   line-height: 1.6;
+  background-image: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
 }
 .container {
   width: 900px;
@@ -14,6 +14,7 @@ header {
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
+  margin: 0;
   border-bottom: #ffb366 3px solid;
 }
 header a {
@@ -51,6 +52,7 @@ header .current a {
 header a:hover {
   color: #ffffff;
   font-weight: bold;
+  background-color: #333;
 }
 .feature-box {
   background: #ffdab9;
@@ -64,20 +66,7 @@ footer {
   padding: 20px 50px;
   text-align: center;
 }
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+
 .contact-form input,
 .contact-form textarea {
   width: 90%;
@@ -96,7 +85,9 @@ h1 {
   font-family: "Matemasie", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .rubik-uniquifier {
@@ -104,4 +95,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+video {
+  border-radius: 20px;
 }
